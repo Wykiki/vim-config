@@ -5,13 +5,13 @@ Help and advices of any type are welcome.
 
 ## Installation
 
-'''
+```bash
 
 git clone https://github.com/Wykiki/vim-config.git ~/vim-wyki \
 cd ~/vim-wyki \
 ./install.sh
 
-'''
+```
 
 ## Currently installed plugins
 
