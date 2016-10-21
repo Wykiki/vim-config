@@ -3,6 +3,16 @@
 It is my personal vim configuration folder.
 Help and advices of any type are welcome.
 
+## Installation
+
+'''
+
+git clone https://github.com/Wykiki/vim-config.git ~/vim-wyki \
+cd ~/vim-wyki \
+./install.sh
+
+'''
+
 ## Currently installed plugins
 
 * [Pathogen](https://github.com/tpope/vim-pathogen)
