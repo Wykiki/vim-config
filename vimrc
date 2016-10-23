@@ -46,6 +46,7 @@ set tabstop=4
 
 " ENABLE SPECIFIC EXTENSION CONFIG FILE
 set modeline
+filetype plugin on
 
 "hi CursorLine term=bold cterm=bold guibg=Grey40
 
