@@ -80,9 +80,15 @@ inoremap <S-Down>			<Esc><C-w><Down>i
 "inoremap ""		""<Left>
 
 "inoremap ''		''<Left>
+map zz				<Esc>:q<CR>
+map zxz				<Esc>:x<CR>
+map zxx				<Esc>:w<CR>
 imap jj				<Esc>
 inoremap <CR>\		<Esc>o
 inoremap <CR>/		<Esc>O
+
+"ADD ; AT END OF LINE AND CR
+inoremap ;;		<Esc>$a;
 
 " CLOSE TAG HTML AND NEWLINE
 "inoremap >>			<Space><bar><Esc>T<yt<Space>
@@ -111,3 +117,5 @@ let c_space_errors = 1
 " BACKUP
 set nobackup
 set noswapfile
+
+set scrolloff=5
