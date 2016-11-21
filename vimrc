@@ -81,6 +81,8 @@ inoremap <S-Down>			<Esc><C-w><Down>i
 
 "inoremap ''		''<Left>
 map zz				<Esc>:q<CR>
+map zzz				<Esc>:qa<CR>
+map z!				<Esc>:q!<CR>
 map zxz				<Esc>:x<CR>
 map zxx				<Esc>:w<CR>
 imap jj				<Esc>
