@@ -12,8 +12,11 @@ set nocompatible
 execute pathogen#infect()
 
 " SYNTASTIC
-let g:syntastic_cpp_compiler = 'gcc'
-let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++ -Wall -Werror -Wextra'
+let g:syntastic_cpp_compiler = 'clang++'
+" FOR OSX
+" let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++ -Wall -Werror -Wextra'
+" FOR DEBIAN
+let g:syntastic_cpp_compiler_options = ' -std=c++11 -Wall -Werror -Wextra'
 let g:syntastic_check_on_open=1
 let g:syntastic_check_on_wq = 1
 let g:syntastic_enable_signs=1
@@ -81,10 +84,10 @@ inoremap <S-Down>			<Esc><C-w><Down>i
 
 "inoremap ''		''<Left>
 map zz				<Esc>:q<CR>
-map zzz				<Esc>:qa<CR>
+map za				<Esc>:qa<CR>
 map z!				<Esc>:q!<CR>
-map zxz				<Esc>:x<CR>
-map zxx				<Esc>:w<CR>
+map zw				<Esc>:x<CR>
+map zx				<Esc>:w<CR>
 imap jj				<Esc>
 inoremap <CR>\		<Esc>o
 inoremap <CR>/		<Esc>O
