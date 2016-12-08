@@ -22,8 +22,9 @@ let g:syntastic_check_on_wq = 1
 let g:syntastic_enable_signs=1
 let g:syntastic_cpp_check_header = 1
 let g:syntastic_cpp_remove_include_errors = 1
-let g:syntastic_c_include_dirs = ['../../../include', '../../include','../include','./include',
-									'../../../inc', '../../inc','../inc','./inc']
+let g:syntastic_c_include_dirs = ['../../../include', '../../include',
+									\ '../include','./include', '../../../inc',
+									\ '../../inc','../inc','./inc']
 
 "NERDTREE CONFIG
 let g:NERDTreeQuitOnOpen = 1
