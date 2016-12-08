@@ -7,8 +7,8 @@ Help and advices of any type are welcome.
 
 ```bash
 
-git clone https://github.com/Wykiki/vim-config.git ~/vim-wyki \
-cd ~/vim-wyki \
+git clone https://github.com/Wykiki/vim-config.git ~/vim-wyki && \
+cd ~/vim-wyki && \
 ./install.sh
 
 ```
