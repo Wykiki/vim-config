@@ -1,1 +1,1 @@
-inoremap ;		<Esc>$a;<CR>
+inoremap ;		<Esc>$a;
