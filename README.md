@@ -17,7 +17,6 @@ cd ~/vim-wyki && \
 
 * [Pathogen](https://github.com/tpope/vim-pathogen)
 * [Nerdtree](https://github.com/scrooloose/nerdtree)
-* [Auto-Pairs](https://github.com/jiangmiao/auto-pairs)
 * [Vim-Fugitive](https://github.com/tpope/vim-fugitive)
 
 ## Currently created extension configuration files
