@@ -18,8 +18,11 @@ cd ~/vim-wyki && \
 * [Pathogen](https://github.com/tpope/vim-pathogen)
 * [Nerdtree](https://github.com/scrooloose/nerdtree)
 * [Vim-Fugitive](https://github.com/tpope/vim-fugitive)
+* [Rust.vim](https://github.com/rust-lang/rust.vim.git)
+* [Vim-glsl](https://github.com/tikhomirov/vim-glsl)
 
 ## Currently created extension configuration files
 
 * HTML
+* CSS
 * Python

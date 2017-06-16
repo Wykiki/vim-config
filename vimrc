@@ -12,11 +12,13 @@ set nocompatible
 execute pathogen#infect()
 
 " SYNTASTIC
+" C / C++
 let g:syntastic_cpp_compiler = 'clang++'
-" FOR OSX
-" let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++ -Wall -Werror -Wextra'
-" FOR DEBIAN
-let g:syntastic_cpp_compiler_options = ' -std=c++11 -Wall -Werror -Wextra'
+if has('macunix')
+	let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++ -Wall -Werror -Wextra'
+elseif has('unix')
+	let g:syntastic_cpp_compiler_options = ' -std=c++11 -Wall -Werror -Wextra'
+endif
 let g:syntastic_check_on_open=1
 let g:syntastic_check_on_wq = 1
 let g:syntastic_enable_signs=1
@@ -25,6 +27,9 @@ let g:syntastic_cpp_remove_include_errors = 1
 let g:syntastic_c_include_dirs = ['../../../include', '../../include',
 									\ '../include','./include', '../../../inc',
 									\ '../../inc','../inc','./inc']
+
+" RUST
+let g:syntastic_rust_checkers = ['rustc']
 
 "NERDTREE CONFIG
 let g:NERDTreeQuitOnOpen = 1
@@ -112,11 +117,11 @@ set ruler
 
 " HIGHLIGHT DOUBLE SPACES
 set hlsearch
-highlight ExtraWhitespace ctermbg=red guibg=red
+"highlight ExtraWhitespace ctermbg=red guibg=red
 
-autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
+"autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 
-match ExtraWhitespace / \{2,\}/
+"match ExtraWhitespace / \{2,\}/
 
 " HIGHLIGHT TRAILING WHITESPACE
 let c_space_errors = 1
