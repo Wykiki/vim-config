@@ -78,18 +78,18 @@ inoremap <S-Up>				<Esc><C-w><Up>i
 inoremap <S-Down>			<Esc><C-w><Down>i
 
 " AUTO-CLOSE
-"inoremap {{		{}<Left>
-"inoremap {<CR>	{<CR>}<Esc>O
+inoremap {{		{}<Left>
+inoremap {<CR>	{<CR>}<Esc>O
 
-"inoremap ((		()<Left>
-"inoremap (<CR>	(<CR>)<Esc>O
-"inoremap (;		();<Left><Left>
+inoremap ((		()<Left>
+inoremap (<CR>	(<CR>)<Esc>O
+inoremap (;		();<Left><Left>
 
-"inoremap [[		[]<Left>
+inoremap [[		[]<Left>
 
-"inoremap ""		""<Left>
+inoremap ""		""<Left>
 
-"inoremap ''		''<Left>
+inoremap ''		''<Left>
 map zz				<Esc>:q<CR>
 map za				<Esc>:qa<CR>
 map z!				<Esc>:q!<CR>
@@ -97,7 +97,7 @@ map zw				<Esc>:x<CR>
 map zx				<Esc>:w<CR>
 imap jj				<Esc>
 inoremap <CR>\		<Esc>o
-inoremap <CR>/		<Esc>O
+inoremap <CR>\|		<Esc>O
 
 "ADD ; AT END OF LINE
 inoremap ;;		<Esc>$a;
