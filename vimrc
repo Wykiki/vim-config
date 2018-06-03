@@ -45,6 +45,7 @@ set background=light
 "INDENT AND UTILITIES
 set encoding=utf-8
 set mouse=a
+set smartindent
 set ai
 set nu
 set cc=81
