@@ -22,3 +22,6 @@
 [submodule "bundle/vim-slang"]
 	path = bundle/vim-slang
 	url = https://github.com/elorest/vim-slang.git
+[submodule "bundle/vaxe"]
+	path = bundle/vaxe
+	url = https://github.com/jdonaldson/vaxe.git
